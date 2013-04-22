@@ -1,7 +1,7 @@
 import requests
 from getpass import getpass
-import re
 from xml.etree import ElementTree as ET
+
 session = requests.Session()
 
 poop = 'Username: '
