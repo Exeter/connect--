@@ -1,7 +1,11 @@
 #Connect--
 Less is more. A simplified Exeter Connect.
-
-test.py is just a scraping test.
+<br>
+<br>
+<br>
+test.py is just a scraping test. Have fun and don't do anything stupid.
+<br>
+<br>
 
 #Todo:
  - make a website
