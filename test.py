@@ -4,7 +4,6 @@ from xml.etree import ElementTree as ET
 
 session = requests.Session()
 
-poop = 'Username: '
 username = input('Username: ')
 password = getpass()
 user = input('Anybody\'s Username: ') #Totally unintended, but apparently you can craft queries for anybody's data (even teachers!)
