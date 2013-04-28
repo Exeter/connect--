@@ -11,7 +11,6 @@ test.py is faster and cleaner than test_old.py in every regard, which shows how 
 
 <br>
 ##Todo
- - document UserProfileSchema as json, not sudsobject
  - port to [javascript(?)](http://javascriptsoapclient.codeplex.com/) for web client? or should interfacing with connect be part of backend (like csserver/schedule deals with lionlinks?)
  - make website frontend
  - Figure out how to get course materials/classlinks
