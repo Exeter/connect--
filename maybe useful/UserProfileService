@@ -1,0 +1,160 @@
+
+Suds ( https://fedorahosted.org/suds/ )  version: 0.4 GA  build: R699-20100913
+
+Service ( UserProfileService ) tns="http://microsoft.com/webservices/SharePointPortalServer/UserProfileService"
+   Prefixes (2)
+      ns0 = "http://microsoft.com/webservices/SharePointPortalServer/UserProfileService"
+      ns1 = "http://microsoft.com/wsdl/types/"
+   Ports (2):
+      (UserProfileServiceSoap)
+         Methods (43):
+            AddColleague(xs:string accountName, xs:string colleagueAccountName, xs:string group, Privacy privacy, xs:boolean isInWorkGroup, )
+            AddColleagueWithoutEmailNotification(xs:string accountName, xs:string colleagueAccountName, xs:string group, Privacy privacy, xs:boolean isInWorkGroup, )
+            AddLeader(xs:string accountName, )
+            AddLink(xs:string accountName, xs:string name, xs:string url, xs:string group, Privacy privacy, )
+            AddMembership(xs:string accountName, MembershipData membershipInfo, xs:string group, Privacy privacy, )
+            AddPinnedLink(xs:string accountName, xs:string name, xs:string url, )
+            AddSuggestions(SuggestionType type, ArrayOfString suggestions, ArrayOfDouble weights, )
+            CreateMemberGroup(MembershipData membershipInfo, )
+            CreateUserProfileByAccountName(xs:string accountName, )
+            GetCommonColleagues(xs:string accountName, )
+            GetCommonManager(xs:string accountName, )
+            GetCommonMemberships(xs:string accountName, )
+            GetInCommon(xs:string accountName, )
+            GetLeaders()
+            GetProfileSchema(xs:string schemaName, )
+            GetProfileSchemaNameByAccountName(xs:string accountName, )
+            GetProfileSchemaNames()
+            GetPropertyChoiceList(xs:string propertyName, )
+            GetUserColleagues(xs:string accountName, )
+            GetUserLinks(xs:string accountName, )
+            GetUserMemberships(xs:string accountName, )
+            GetUserOrganizations(xs:string accountName, )
+            GetUserPinnedLinks(xs:string accountName, )
+            GetUserProfileByGuid(ns1:guid guid, )
+            GetUserProfileByIndex(xs:int index, )
+            GetUserProfileByName(xs:string AccountName, )
+            GetUserProfileCount()
+            GetUserProfileSchema()
+            GetUserPropertyByAccountName(xs:string accountName, xs:string propertyName, )
+            ModifyUserPropertyByAccountName(xs:string accountName, ArrayOfPropertyData newData, )
+            RemoveAllColleagues(xs:string accountName, )
+            RemoveAllLinks(xs:string accountName, )
+            RemoveAllMemberships(xs:string accountName, )
+            RemoveAllPinnedLinks(xs:string accountName, )
+            RemoveColleague(xs:string accountName, xs:string colleagueAccountName, )
+            RemoveLeader(xs:string accountName, )
+            RemoveLink(xs:string accountName, xs:int id, )
+            RemoveMembership(xs:string accountName, ns1:guid sourceInternal, xs:string sourceReference, )
+            RemovePinnedLink(xs:string accountName, xs:int id, )
+            UpdateColleaguePrivacy(xs:string accountName, xs:string colleagueAccountName, Privacy newPrivacy, )
+            UpdateLink(xs:string accountName, QuickLinkData data, )
+            UpdateMembershipPrivacy(xs:string accountName, ns1:guid sourceInternal, xs:string sourceReference, Privacy newPrivacy, )
+            UpdatePinnedLink(xs:string accountName, PinnedLinkData data, )
+         Types (29):
+            ArrayOfContactData
+            ArrayOfDouble
+            ArrayOfLeader
+            ArrayOfMembershipData
+            ArrayOfOrganizationProfileData
+            ArrayOfPinnedLinkData
+            ArrayOfPropertyData
+            ArrayOfPropertyInfo
+            ArrayOfQuickLinkData
+            ArrayOfString
+            ArrayOfValueData
+            ChoiceTypes
+            ContactData
+            GetUserProfileByIndexResult
+            InCommonData
+            Leader
+            MemberGroupData
+            MembershipData
+            MembershipSource
+            OrganizationProfileData
+            PinnedLinkData
+            Privacy
+            PropertyData
+            PropertyInfo
+            QuickLinkData
+            SPTimeZone
+            SuggestionType
+            ValueData
+            ns1:guid
+      (UserProfileServiceSoap12)
+         Methods (43):
+            AddColleague(xs:string accountName, xs:string colleagueAccountName, xs:string group, Privacy privacy, xs:boolean isInWorkGroup, )
+            AddColleagueWithoutEmailNotification(xs:string accountName, xs:string colleagueAccountName, xs:string group, Privacy privacy, xs:boolean isInWorkGroup, )
+            AddLeader(xs:string accountName, )
+            AddLink(xs:string accountName, xs:string name, xs:string url, xs:string group, Privacy privacy, )
+            AddMembership(xs:string accountName, MembershipData membershipInfo, xs:string group, Privacy privacy, )
+            AddPinnedLink(xs:string accountName, xs:string name, xs:string url, )
+            AddSuggestions(SuggestionType type, ArrayOfString suggestions, ArrayOfDouble weights, )
+            CreateMemberGroup(MembershipData membershipInfo, )
+            CreateUserProfileByAccountName(xs:string accountName, )
+            GetCommonColleagues(xs:string accountName, )
+            GetCommonManager(xs:string accountName, )
+            GetCommonMemberships(xs:string accountName, )
+            GetInCommon(xs:string accountName, )
+            GetLeaders()
+            GetProfileSchema(xs:string schemaName, )
+            GetProfileSchemaNameByAccountName(xs:string accountName, )
+            GetProfileSchemaNames()
+            GetPropertyChoiceList(xs:string propertyName, )
+            GetUserColleagues(xs:string accountName, )
+            GetUserLinks(xs:string accountName, )
+            GetUserMemberships(xs:string accountName, )
+            GetUserOrganizations(xs:string accountName, )
+            GetUserPinnedLinks(xs:string accountName, )
+            GetUserProfileByGuid(ns1:guid guid, )
+            GetUserProfileByIndex(xs:int index, )
+            GetUserProfileByName(xs:string AccountName, )
+            GetUserProfileCount()
+            GetUserProfileSchema()
+            GetUserPropertyByAccountName(xs:string accountName, xs:string propertyName, )
+            ModifyUserPropertyByAccountName(xs:string accountName, ArrayOfPropertyData newData, )
+            RemoveAllColleagues(xs:string accountName, )
+            RemoveAllLinks(xs:string accountName, )
+            RemoveAllMemberships(xs:string accountName, )
+            RemoveAllPinnedLinks(xs:string accountName, )
+            RemoveColleague(xs:string accountName, xs:string colleagueAccountName, )
+            RemoveLeader(xs:string accountName, )
+            RemoveLink(xs:string accountName, xs:int id, )
+            RemoveMembership(xs:string accountName, ns1:guid sourceInternal, xs:string sourceReference, )
+            RemovePinnedLink(xs:string accountName, xs:int id, )
+            UpdateColleaguePrivacy(xs:string accountName, xs:string colleagueAccountName, Privacy newPrivacy, )
+            UpdateLink(xs:string accountName, QuickLinkData data, )
+            UpdateMembershipPrivacy(xs:string accountName, ns1:guid sourceInternal, xs:string sourceReference, Privacy newPrivacy, )
+            UpdatePinnedLink(xs:string accountName, PinnedLinkData data, )
+         Types (29):
+            ArrayOfContactData
+            ArrayOfDouble
+            ArrayOfLeader
+            ArrayOfMembershipData
+            ArrayOfOrganizationProfileData
+            ArrayOfPinnedLinkData
+            ArrayOfPropertyData
+            ArrayOfPropertyInfo
+            ArrayOfQuickLinkData
+            ArrayOfString
+            ArrayOfValueData
+            ChoiceTypes
+            ContactData
+            GetUserProfileByIndexResult
+            InCommonData
+            Leader
+            MemberGroupData
+            MembershipData
+            MembershipSource
+            OrganizationProfileData
+            PinnedLinkData
+            Privacy
+            PropertyData
+            PropertyInfo
+            QuickLinkData
+            SPTimeZone
+            SuggestionType
+            ValueData
+            ns1:guid
+
+
